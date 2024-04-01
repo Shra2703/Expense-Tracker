@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styles from "./Transaction.module.css";
-import EditImage from "../../images/edit.png";
 import DeleteImage from "../../images/trash-bin.png";
 
 const Transaction = ({ expense, index, deleteExpense }) => {
@@ -32,10 +31,12 @@ const Transaction = ({ expense, index, deleteExpense }) => {
             currentHoverIndex === index && styles.active
           }`}
         >
-          <div className={styles.edit} onClick={() => {}}>
-            <img src={EditImage} height="100%" alt="Edit" />
-          </div>
-          <div className={styles.delete} onClick={() => {deleteExpense(expense.id)}}>
+          <div
+            className={styles.delete}
+            onClick={() => {
+              deleteExpense(expense.id);
+            }}
+          >
             <img src={DeleteImage} height="100%" alt="Delete" />
           </div>
         </div>
