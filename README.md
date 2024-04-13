@@ -38,6 +38,7 @@ To start using Expense Tracker:
 ![Screenshot (93)](https://github.com/Shra2703/Expense-Tracker/assets/113618935/45a9cc83-f49b-4b6b-9de4-4d3342c7bb5c)
 
 > ### 📺Project Demo:
+https://github.com/Shra2703/Expense-Tracker/assets/113618935/2b82d9ee-142a-43b9-bc5f-cba0d77ac2cd
 
 
 > ### 📞Contact Information:
